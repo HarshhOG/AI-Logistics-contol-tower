@@ -1,0 +1,19 @@
+[project]
+name = "ai-logistics-control-tower"
+version = "1.0.0"
+description = "AI Logistics Control Tower"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn>=0.30.0",
+    "pydantic>=2.8.0",
+    "psycopg2-binary>=2.9.9",
+    "requests>=2.32.0",
+    "python-multipart>=0.0.9",
+    "openpyxl>=3.1.5",
+    "pandas>=2.2.0"
+]
+
+[tool.vercel]
+entrypoint = "index.py"
